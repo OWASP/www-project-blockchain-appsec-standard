@@ -1,13 +1,13 @@
 ### BlockChain AppSec Standard Information
 * [Incubator Project](#)
 * [Type of Project](#)
-* [Version 0.0.0](#)
+* [Version 0.1.0](#)
 * [Builder](#)
 * [Breaker](#)
 
 ### Downloads or Social Links
 * [Download](#)
-* [Meetup](#)
+<!-- * [Meetup](#)  -->
 
 ### Code Repository
 * [repo](#)
