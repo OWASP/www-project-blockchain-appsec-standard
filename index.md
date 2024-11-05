@@ -2,21 +2,31 @@
 
 layout: col-sidebar
 title: OWASP BlockChain AppSec Standard
-tags: example-tag
+tags: blockchain cryptocurrency block-chain web3
 level: 2
-type: 
-pitch: A very brief, one-line description of your project
+type: documentation
+pitch: We focus on security of in blockchain and web3 and share our knowledge on attack vectors and defense mechanisms. We strongly encourage your contribution to these topics and content.
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+Audience \- security or tech professionals with basic to intermediate networking and cryptography knowledge
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+Out of scope for this exercise: Smart contracts which are sufficiently covered by another project ([https://owasp.org/www-project-smart-contract-security-verification-standard/](https://owasp.org/www-project-smart-contract-security-verification-standard/)). We explain a little bit about it for completeness. 
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+What is Web3, Block Chain, Smart Contracts?
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+**Blockchain** \- is a cryptography based technology stack recording transactions in a trusted and transparent way. A block of transactions are chained together to form a ledger. The chain is distributed to multiple nodes (decentralized) and the majority consensus is sought to verify the block to become a part of the chain. If a transaction is agreed to be retroactively changed, all transactions after that will have to be changed as well, therefore it is not often that a transaction can get altered even with consensus, hence it is considered to be immutable.   
+Chains can have one or more use cases, such as cryptocurrency, voting systems, supply chain tracking.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
+Using an elliptic curve algorithm, private and public key pairs are created (up to 256 pairs). As a user, private key is your secret key and each public key is a wallet. Each key pair can be used in a different chains, like ethereum, bitcoin or non-currency project/products named chains. Each chain has an immutable ledger that is viewable publicly but can only be changed with majority of user’s consensus. 
 
-type: code, tool, documentation, or other
+Mining \- the chain creates a challenge of the next required block (a specific hash outcome) and miners use their compute power to try different salts in their hashing to reach this outcome. First miner to reach and gets proved by the chain gets rewarded. 
+
+**Web3** is a communication layer built on top of Internet Protocol. It utilises blockchain technology to run the next generation of the internet and envisioned to be decentralised (no single company or person owns it) and user-owned (users own their data and digital assets, often through tokens (e.g., NFTs).
+
+In short:   
+**Web3** is the vision of a decentralised internet.  
+**Blockchain** is the underlying technology that enables decentralisation.  
+**Smart Contracts** are the tools used to automate and enforce agreements on the blockchain.  
+Further resources and more advanced topics for blockchain and web3 are at the [appendice](#advanced-topics-and-further-resources:).   
+ 
