@@ -1,2 +1,3 @@
 ### Leaders
-* [Jon McCoy](mailto:jonmccoy@owasp.org)
+* [Jon McCoy](mailto:jon.mccoy@owasp.org)
+* [Didar Gelici](mailto:didar.gelici@owasp.org)
