@@ -6,8 +6,19 @@ level: 2
 type: documentation
 pitch: We focus on security of in blockchain and web3 and share our knowledge on attack vectors and defense mechanisms. We strongly encourage your contribution to these topics and content.
 ---
+## What is the OWASP Blockchain AppSec Standard?
 
-**Audience** \- security or tech professionals with basic to intermediate networking and cryptography knowledge
+The OWASP Blockchain AppSec Standard is a centralized knowledge base that provides an understanding of what good blockchain security looks like, while also equipping security professionals with timely, reliable insights and resources to stay informed.  
+The intended audience for this includes the following stakeholder groups. 
+Blockchain architects and developers designing and building blockchain applications
+Security professionals with basic to intermediate networking and cryptography knowledge who are looking to secure blockchain applications
+
+### Audience
+
+The intended audience for this includes the following stakeholder groups. 
+* Blockchain architects and developers designing and building blockchain applications
+* Security professionals with basic to intermediate networking and cryptography knowledge who are looking to secure blockchain applications
+
 
 **Out of scope for this exercise:** Smart contracts which are sufficiently covered by the [Smart Contract Security Verification Standard](https://owasp.org/www-project-smart-contract-security-verification-standard) project. We explain a little bit about it for completeness.
 
@@ -23,7 +34,7 @@ Using an elliptic curve algorithm, private and public key pairs are created (up 
 **Web3** is a communication layer built on top of Internet Protocol. It utilises blockchain technology to run the next generation of the internet and envisioned to be decentralised (no single company or person owns it) and user-owned (users own their data and digital assets, often through tokens (e.g., NFTs).
 
 ### In short:  
-* **Web3** is the vision of a decentralised internet.  
+* **Web3** is the vision of a decentralized Internet.  
 * **Blockchain** is the underlying technology that enables decentralisation.  
 * **Smart Contracts** are the tools used to automate and enforce agreements on the blockchain.  
 Further resources and more advanced topics for blockchain and web3 are at the [appendice](#advanced-topics-and-further-resources:).

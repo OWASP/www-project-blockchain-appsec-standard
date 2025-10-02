@@ -1,4 +1,4 @@
-### BlockChain AppSec Standard Information
+### Blockchain AppSec Standard Information
 * [Incubator Project](#)
 * [Type of Project](#)
 * [Version 0.1.0](#)
