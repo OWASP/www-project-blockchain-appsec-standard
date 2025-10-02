@@ -1,0 +1,23 @@
+audience:
+  - breaker
+  - builder
+leaders:
+  - name: Jon McCoy
+    email: jon.mccoy@owasp.org
+    github: theJonMccoy
+  - name: Didar Gelici
+    email: didar.gelici@owasp.org
+level: 2
+name: OWASP Blockchain AppSec Standard
+pitch: We focus on security of in blockchain and web3 and share our knowledge on attack vectors and defense mechanisms. We strongly encourage your contribution
+  to these topics and content.
+repositories:
+  - name: www-project-blockchain-appsec-standard
+    url: https://github.com/OWASP/www-project-blockchain-appsec-standard
+    description: OWASP Foundation Web Repository
+tags:
+  - blockchain
+  - cryptocurrency
+  - web3
+type: documentation
+website: https://owasp.org/www-project-blockchain-appsec-standard
