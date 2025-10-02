@@ -9,9 +9,6 @@ pitch: We focus on security of in blockchain and web3 and share our knowledge on
 ## What is the OWASP Blockchain AppSec Standard?
 
 The OWASP Blockchain AppSec Standard is a centralized knowledge base that provides an understanding of what good blockchain security looks like, while also equipping security professionals with timely, reliable insights and resources to stay informed.  
-The intended audience for this includes the following stakeholder groups. 
-Blockchain architects and developers designing and building blockchain applications
-Security professionals with basic to intermediate networking and cryptography knowledge who are looking to secure blockchain applications
 
 ### Audience
 
