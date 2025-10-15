@@ -11,99 +11,68 @@ Regulation and vendor-risk scrutiny rose, and AI/ML added new, specialized suppl
 The [OWASP Software Supply Chain Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet.html) provides a more in-depth description of relevant threats, mitigations and security best practices.
 
 
-
-
 ## Considerations for Blockchain Supply Chain Security 
 
+Below are some software supply chain security considerations specific to blockchain development, where decentralized dependencies and immutable code introduce unique risks and controls.
 
-Below are some software supply chain security considerations specific to blockchain development, where decentralized dependencies and immutable code introduce unique risks and controls:
 ### 1. Smart Contract Dependencies and Libraries
+
 **Risk:** Many blockchain projects rely on third-party smart contract libraries (e.g., OpenZeppelin). A compromised or outdated dependency can propagate vulnerabilities on-chain.
 
-
 **Mitigation:**
 
-
-Pin dependency versions in package managers.
-
-
-Verify contract bytecode and audits before deployment.
-
-
-Use reproducible builds and dependency integrity checks.
-
+* Pin dependency versions in package managers.
+* Verify contract bytecode and audits before deployment.
+* Use reproducible builds and dependency integrity checks.
 
 ### 2. Node and Client Software Integrity
+
 **Risk:** Blockchain nodes depend on clients (e.g., Geth, Erigon, Cardano-node) that can be compromised through malicious updates or binaries.
 
-
 **Mitigation:**
 
-
-Validate binaries via cryptographic signatures.
-
-
-Build from source and verify reproducibility.
-
-
-Monitor for CVEs and ensure timely security patches.
-
+* Validate binaries via cryptographic signatures.
+* Build from source and verify reproducibility.
+* Monitor for CVEs and ensure timely security patches.
 
 ### 3. Key Management in Build and Deployment Pipelines
-**Risk:** Private keys used for signing transactions, deploying contracts, or verifying updates can be stolen or misused.
 
+**Risk:** Private keys used for signing transactions, deploying contracts, or verifying updates can be stolen or misused.
 
 **Mitigation:**
 
-
-Store signing keys in HSMs or key vaults.
-
-
-Implement role-based access control (RBAC).
-
-
-Use ephemeral keys for CI/CD signing when possible.
+* Store signing keys in HSMs or key vaults.
+* Implement role-based access control (RBAC).
+* Use ephemeral keys for CI/CD signing when possible.
 
 
 ### 4. Immutable Deployments and Rollback Limitations
+
 **Risk:** Once deployed, smart contracts are immutable — any supply chain compromise leading to vulnerable code cannot easily be rolled back.
 
-
 **Mitigation:**
 
-
-Employ multi-stage testing and formal verification before deployment.
-
-
-Use upgradeable contracts or proxy patterns with strict governance controls.
+* Employ multi-stage testing and formal verification before deployment.
+* Use upgradeable contracts or proxy patterns with strict governance controls.
 
 ### 5. Build Environment and CI/CD Integrity
+
 **Risk:** Malicious code injection into build pipelines or compilers (e.g., tampered Solidity compiler) can alter deployed contract bytecode.
 
-
 **Mitigation:**
 
-
-Use isolated, reproducible build environments (e.g., Docker).
-
-
-Verify compiler versions and hashes.
-
-
-Adopt end-to-end build provenance (e.g., SLSA framework).
-
+* Use isolated, reproducible build environments (e.g., Docker).
+* Verify compiler versions and hashes.
+* Adopt end-to-end build provenance (e.g., SLSA framework).
 
 ### 6. Decentralized Package and Module Registries
-**Risk:** Decentralized registries (e.g., npm mirrors on IPFS, decentralized app stores) can host malicious packages.
 
+**Risk:** Decentralized registries (e.g., npm mirrors on IPFS, decentralized app stores) can host malicious packages.
 
 **Mitigation:**
 
-
-Use verified publishers and signed packages.
-
-
-Periodically audit dependencies and package integrity.
+* Use verified publishers and signed packages.
+* Periodically audit dependencies and package integrity.
 
 
 ### 7. Governance and DAO Tooling
