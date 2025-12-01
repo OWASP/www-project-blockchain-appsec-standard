@@ -27,9 +27,8 @@ The attack surface for social engineering attacks on the blockchain consists lar
 
 ## Examples in the News
 
-There have been many hacks covered in the news that have involved some combination of cryptocurrency payments / accounts and social engineering techniques. Below are some examples. * **Twitter (July 2020):** Attackers used coordinated social-engineering against Twitter employees to gain access to internal admin tools and hijack many verified accounts to post a bitcoin scam. This shows how targeting a small number of staff with internal privileges can produce a high-impact crypto scam. 
-
-
+There have been many hacks covered in the news that have involved some combination of cryptocurrency payments / accounts and social engineering techniques. Below are some examples. 
+* **Twitter (July 2020):** Attackers used coordinated social-engineering against Twitter employees to gain access to internal admin tools and hijack many verified accounts to post a bitcoin scam. This shows how targeting a small number of staff with internal privileges can produce a high-impact crypto scam. 
 * **SIM-swap / carrier attacks (multiple cases, high dollar losses):** Criminals social-engineer mobile carriers or the account recovery process to port phone numbers and intercept 2FA, leading to multi-million dollar crypto thefts (notably cases brought to courts and civil suits for tens of millions). SIM swapping remains a frequent enabling step for attackers stealing exchange or wallet access. 
 * **Ledger follow-ups & hardware-wallet scams:** After Ledger’s data breach (customer contact details leaked), attackers launched highly convincing phishing and even mailed fake hardware wallets to victims designed to steal seed phrases. This highlights how leaked user data enables targeted social engineering. 
 * **Open-source maintainer takeover:** Event-stream/npm (2018) — attackers gained control of an npm package’s maintainer role (or its dependency) and published malicious code that later affected a Bitcoin wallet (Copay). That incident is a classic example of leveraging trust in maintainers to inject malware into the supply chain. 
