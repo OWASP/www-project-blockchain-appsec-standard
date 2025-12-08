@@ -6,6 +6,9 @@ level: 2
 type: documentation
 pitch: We focus on security of in blockchain and web3 and share our knowledge on attack vectors and defense mechanisms. We strongly encourage your contribution to these topics and content.
 ---
+
+![OWASP Blockchain AppSec Standard Logo](assets/images/owasp-blockchain-appsec-standard.PNG)
+
 ## What is the OWASP Blockchain AppSec Standard?
 
 The OWASP Blockchain AppSec Standard is a centralized knowledge base that provides an understanding of what good blockchain security looks like, while also equipping security professionals with timely, reliable insights and resources to stay informed.  
