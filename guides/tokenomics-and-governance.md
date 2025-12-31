@@ -12,9 +12,9 @@ When these systems are poorly designed or insufficiently secured, they create sy
 
 Recent data shows the scale of the problem.
 
-*Over $3.7B was lost in Web3 protocols in 2023 due to security exploits tied to tokenomics and smart contract vulnerabilities.  [blockapps.net](https://blockapps.net/blog/tokenomics-in-crypto-how-smart-contract-security-shapes-value-and-risk)
-*Governance failures in DeFi ecosystems contributed to $10B+ in losses during the 2023–2025 crisis.  [AInvest](https://www.ainvest.com/news/blockchain-security-governance-risks-defi-ecosystems-assessing-long-term-investment-viability-post-crisis-2512)
-*Poor allocation structures and centralized governance contributed to collapses like TerraUSD and FTX.  [AInvest](https://www.ainvest.com/news/tokenomics-governance-risks-crypto-projects-allocation-structures-shape-retail-trust-price-stability-2509)
+* Over $3.7B was lost in Web3 protocols in 2023 due to security exploits tied to tokenomics and smart contract vulnerabilities.  [blockapps.net](https://blockapps.net/blog/tokenomics-in-crypto-how-smart-contract-security-shapes-value-and-risk)
+* Governance failures in DeFi ecosystems contributed to $10B+ in losses during the 2023–2025 crisis.  [AInvest](https://www.ainvest.com/news/blockchain-security-governance-risks-defi-ecosystems-assessing-long-term-investment-viability-post-crisis-2512)
+* Poor allocation structures and centralized governance contributed to collapses like TerraUSD and FTX.  [AInvest](https://www.ainvest.com/news/tokenomics-governance-risks-crypto-projects-allocation-structures-shape-retail-trust-price-stability-2509)
 * DAO governance weaknesses have enabled attacks exceeding $300M across major protocols.  [NHSJS](https://nhsjs.com/2025/strengthening-dao-governance-vulnerabilities-and-solutions)
 
 These events highlight why tokenomics and governance must be treated as core security domains—not just economic design choices.
@@ -37,10 +37,10 @@ These events highlight why tokenomics and governance must be treated as core sec
 
 ### 1. Smart Contract Security Controls
 
-• Formal verification of token supply logic and governance modules.
-• Independent audits focusing on mint/burn functions, vesting, and upgradeability.
-• Bug bounty programs to incentivize early discovery of flaws.
-• Immutable or time‑locked critical functions to prevent sudden malicious changes.
+* Formal verification of token supply logic and governance modules.
+* Independent audits focusing on mint/burn functions, vesting, and upgradeability.
+* Bug bounty programs to incentivize early discovery of flaws.
+* Immutable or time‑locked critical functions to prevent sudden malicious changes.
 
 
 ### 2. Governance Hardening
@@ -81,5 +81,5 @@ Publish governance decisions, treasury movements, and risk assessments.
 
 
 ## References 
-*[SEC](https://www.sec.gov/files/ctf-written-input-daniel-bruno-corvelo-costa-091125.pdf)
-*[“Tokenomics 101” - Coinbase Learn](https://www.coinbase.com/learn/wallet/tokenomics-101)
+* [SEC](https://www.sec.gov/files/ctf-written-input-daniel-bruno-corvelo-costa-091125.pdf)
+* ["Tokenomics 101” - Coinbase Learn](https://www.coinbase.com/learn/wallet/tokenomics-101)
