@@ -81,5 +81,5 @@ Publish governance decisions, treasury movements, and risk assessments.
 
 
 ## References 
-* [SEC](https://www.sec.gov/files/ctf-written-input-daniel-bruno-corvelo-costa-091125.pdf)
+* [SEC proposal - "Ethical and Modular Framework for Governance of Tokenized Assets Linied to Sovereign Debt"](https://www.sec.gov/files/ctf-written-input-daniel-bruno-corvelo-costa-091125.pdf)
 * ["Tokenomics 101” - Coinbase Learn](https://www.coinbase.com/learn/wallet/tokenomics-101)
