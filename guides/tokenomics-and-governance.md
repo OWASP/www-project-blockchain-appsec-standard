@@ -23,7 +23,7 @@ These events highlight why tokenomics and governance must be treated as core sec
 ## Key Threats, Likelihood and Impact
 
 | Threat  | Likelihood |  Impact | Notes |
--------|
+|-------|-------|-------|-------|
 | Smart contract vulnerabilities affecting token supply or distribution | High  | Severe | Exploits like the DAO hack show how a single flaw can drain treasuries or mint unauthorized tokens. |
 | Smart contract vulnerabilities affecting token supply or distribution  | Medium-High  | Severe | TerraUSD collapse illustrates how flawed tokenomics can wipe out billions |
 | Economic design flaws (unstable peg, reflexive mechanisms) | Medium  | Catastrophic | TerraUSD collapse illustrates how flawed tokenomics can wipe out billions |
