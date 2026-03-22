@@ -204,7 +204,7 @@ Applying these points effectively requires moving from a checklist to a unified 
 
 The diagram below illustrates how threats flow through the blockchain supply chain and how integrated controls create layered defenses:
 
-![](assets/images/guide-specific-images/blockchain-supply-chain-security-controls-throughout-SDLC.png)
+![blockchain supply chain security controls throughout theSDLC](assets/images/guide-specific-images/blockchain-supply-chain-security-controls-throughout-SDLC.png)
 
 
 ### Interconnection with Other Critical Domains
