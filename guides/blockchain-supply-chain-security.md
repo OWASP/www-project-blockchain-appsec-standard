@@ -221,8 +221,8 @@ Integrate these sophisticated vectors into the risk assessment and technical con
 
 | Advanced Risk Area | Why It Matters for Blockchain | Recommended Integration Point |
 | ----- | ----- | ----- |
-| AI in the Supply Chain | 1. Attack: AI-generated code or malicious packages that evade static analysis.
-2. Defense: AI-powered SCA tools that detect novel dependency threats. | Assess risks of AI-generated code dependencies. Mandate manual review for AI-assisted code and evaluate AI-enhanced security tooling. |
+| AI in the Supply Chain | * **Attack:** AI-generated code or malicious packages that evade static analysis.
+* **Defense:** AI-powered SCA tools that detect novel dependency threats. | Assess risks of AI-generated code dependencies. Mandate manual review for AI-assisted code and evaluate AI-enhanced security tooling. |
 | ----- | ----- | ----- |
 | Hardware Supply Chain | Compromised HSMs, hardware wallets, or secure enclaves (like SGX/TrustZone) undermine root-of-trust. | Mandate purchasing from certified vendors, verifying hardware signatures, and air-gapped provisioning. |
 | Cross-Chain & Bridge Dependencies | Bridges are complex "meta-dependencies." A bridge's security depends on its own foreign chain validators, oracles, and multisig councils. | Mandate mapping bridge dependencies as part of the SBOM and auditing the bridge's governance/upgrade mechanism. |
