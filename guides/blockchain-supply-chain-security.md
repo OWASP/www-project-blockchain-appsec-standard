@@ -223,6 +223,7 @@ Integrate these sophisticated vectors into the risk assessment and technical con
 | ----- | ----- | ----- |
 | AI in the Supply Chain | 1. Attack: AI-generated code or malicious packages that evade static analysis.
 2. Defense: AI-powered SCA tools that detect novel dependency threats. | Assess risks of AI-generated code dependencies. Mandate manual review for AI-assisted code and evaluate AI-enhanced security tooling. |
+| ----- | ----- | ----- |
 | Hardware Supply Chain | Compromised HSMs, hardware wallets, or secure enclaves (like SGX/TrustZone) undermine root-of-trust. | Mandate purchasing from certified vendors, verifying hardware signatures, and air-gapped provisioning. |
 | Cross-Chain & Bridge Dependencies | Bridges are complex "meta-dependencies." A bridge's security depends on its own foreign chain validators, oracles, and multisig councils. | Mandate mapping bridge dependencies as part of the SBOM and auditing the bridge's governance/upgrade mechanism. |
 | Legal & Liability Clarity | Using forked code or OSS libraries can carry license risks. Unclear liability for immutable contract bugs. | 1) License Compliance Scans in CI; 2) Explicit legal review of dependency licenses; 3) Documented liability assumptions for third-party code in audits. |
