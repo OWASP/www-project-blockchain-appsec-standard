@@ -229,18 +229,18 @@ Integrate these sophisticated vectors into the risk assessment and technical con
 ### Maturity Model & Metrics for Governance
 
 Integrate a simple maturity model into the Metrics & Continuous Improvement section:
-* Level 1 (Basic): Manual processes, SBOMs generated ad-hoc, no enforced signing.
-* Level 2 (Managed): Automated SCA and SBOM generation in CI, enforced commit signing, basic provenance for builds.
-* Level 3 (Defined): Organization-wide policy, SLSA Level 2+ compliance, HSM-backed signing, formal verification for critical contracts.
-* Level 4 (Optimized): Real-time monitoring of dependencies for compromise (not just CVEs), automated red-teaming of CI/CD, crypto-agility implementation.
+* **Level 1 (Basic):** Manual processes, SBOMs generated ad-hoc, no enforced signing.
+* **Level 2 (Managed):** Automated SCA and SBOM generation in CI, enforced commit signing, basic provenance for builds.
+* **Level 3 (Defined):** Organization-wide policy, SLSA Level 2+ compliance, HSM-backed signing, formal verification for critical contracts.
+* **Level 4 (Optimized):** Real-time monitoring of dependencies for compromise (not just CVEs), automated red-teaming of CI/CD, crypto-agility implementation.
 
 
 ### Proactive Defense & Threat Intelligence
 
 Move beyond vulnerability scanning to active hunting:
-* Threat Intelligence Feeds: Subscribe to feeds that track typosquatting in package repositories (npm, PyPI) and new malicious smart contracts on-chain.
-* Canary Packages & Wallets: Deploy decoy internal npm packages or wallet addresses within your development environment to detect exfiltration attempts.
-* Participate in Information Sharing: Encourage joining groups like OWASP's SCVS or the OpenSSF's S2C2F to share and learn about blockchain-specific supply chain threats.
+* **Threat Intelligence Feeds:** Subscribe to feeds that track typosquatting in package repositories (npm, PyPI) and new malicious smart contracts on-chain.
+* **Canary Packages & Wallets:** Deploy decoy internal npm packages or wallet addresses within your development environment to detect exfiltration attempts.
+* **Participate in Information Sharing:** Encourage joining groups like OWASP's SCVS or the OpenSSF's S2C2F to share and learn about blockchain-specific supply chain threats.
 
 
 ### Final Integration Checklist
