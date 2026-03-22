@@ -190,7 +190,7 @@ It is useful to note the following Thebes to properly understand the nature of t
 ## A Structured Approach to Blockchain Supply Chain Security
 
 | Core Consideration | Key Risk & Attack Vector | Governance & Strategic Control (OWASP/NIST) | Technical & Operational Action |
-| ----- | ----- | ----- | ----- | ----- |
+| ----- | ----- | ----- | ----- |
 | 1. Smart Contract Dependencies | Compromised library (e.g., Ledger ConnectKit) propagates vulnerability on-chain. | **Policy:** Define a software component approval process. **NIST SSDF:** PW.6: Analyze security of 3rd-party components. | Implement SBOMs & automate SCA scans in CI. Use lockfiles/pinning and verify bytecode hash pre-deployment. |
 | 2. Node/Client Software Integrity | Malicious binary distribution (e.g., Monero Binaries Hack). | **Policy:** Mandate cryptographic verification for all executable artifacts. **NIST 800-204D:** Secure build & evidence generation. | Use SLSA/Sigstore for provenance. Build from source where possible. Maintain a patching SLA for CVEs. |
 | 3. CI/CD & Build Environment | Poisoned pipeline (e.g., Codecov) injects malware into artifacts. | **Policy:** Enforce strong access control (RBAC, MFA) and isolation for build systems. **OWASP:** Mitigate build environment threats. | Use ephemeral, isolated containers (Docker). Generate in-toto attestations for every build step. |
