@@ -6,7 +6,12 @@ authors: ["Jon McCoy", "Zoe Braiterman"]
 tags: ["social engineering"]
 ---
 
+---
+
+
 ## Briefing Introduction - Overview of the Blockchain Social Engineering Lanscape
+
+---
 
 This document gathers a range of security ideas for handling files in a media‑focused environment.
 
@@ -15,7 +20,12 @@ This document gathers a range of security ideas for handling files in a media‑
 
 Think of this as a baseline playbook: it gives you a solid, repeatable foundation, and then lets you layer on extra safeguards when the content, the partner, or the deadline calls for them. Use the checklist that follows to decide which controls are mandatory for a given file and which are optional enhancements.
 
+---
+
+
 ### Common Targets and Attacker Incentives
+
+---
 
 Attackers use social engineering, because people and processes are the easiest route to secrets, keys and privileged tooling. Targets include maintainers, developers, DevOps/CI, customer-support staff, exchange employees and end users. The result is theft of funds, code-supply-chain compromises, loss of access to admin tools, or persistent backdoors in software dependencies.
 
