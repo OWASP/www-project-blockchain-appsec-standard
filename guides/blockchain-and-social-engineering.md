@@ -67,7 +67,7 @@ There have been many hacks covered in the news that have involved some combinati
 ---
 
 
-## Safe‑Best‑Practices Workflow for Handling Files (Streamlined – the “Tag the file” step has been removed)
+## Safe‑Best‑Practices Workflow for Handling Files (Streamlined – the “Tag the file” step has been removed)
 
 ---
 
