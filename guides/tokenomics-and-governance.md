@@ -1,4 +1,10 @@
-# Tokenomics and Governance
+---
+
+title: Tokenomics and Governance
+layout: col-sidebar
+author: ["Zoe Braiterman"]
+tags: ["tokenomics", "governance"]
+---
 
 
 ## Definition of Blockchain Tokenomics and Governance 
