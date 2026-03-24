@@ -67,7 +67,7 @@ There have been many hacks covered in the news that have involved some combinati
 ---
 
 
-## Safe‑Best‑Practices Workflow for Handling Files
+## Security Best Practices Workflow for Handling Files
 
 ---
 
