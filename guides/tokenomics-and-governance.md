@@ -1,12 +1,27 @@
-# Tokenomics and Governance
+---
+
+title: Tokenomics and Governance
+layout: col-sidebar
+author: ["Zoe Braiterman"]
+tags: ["tokenomics", "governance"]
+---
+
+-----
 
 
 ## Definition of Blockchain Tokenomics and Governance 
 
+-----
+
 Blockchain tokenomics and governance mechanisms define how value flows, how decisions are made, and how power is distributed across a protocol.
+
+-----
 
 
 ## Overview of Relevant Security Concerns
+
+-----
+
 Tokenomics and governance are not just economic or organizational constructs—they are core security surfaces. Failures in these areas have repeatedly led to billion‑dollar losses, ecosystem collapses, and long‑term trust erosion.
 When these systems are poorly designed or insufficiently secured, they create systemic risks that can destabilize entire ecosystems.
 
@@ -19,8 +34,12 @@ Recent data shows the scale of the problem.
 
 These events highlight why tokenomics and governance must be treated as core security domains—not just economic design choices.
 
+-----
+
 
 ## Key Threats, Likelihood and Impact
+
+-----
 
 | Threat  | Likelihood |  Impact | Notes |
 |-------|-------|-------|-------|
@@ -32,8 +51,12 @@ These events highlight why tokenomics and governance must be treated as core sec
 | Regulatory arbitrage and unclear jurisdiction | Medium  | Moderate-High   | Governance failures combined with regulatory gaps erode trust and cause token value drops. |
 | Centralized admin keys or upgrade authority | High  | Severe| A single compromised key can drain funds or alter tokenomics instantly. |
 
+-----
+
 
 ## Security Controls & Mitigation Techniques
+
+-----
 
 ### 1. Smart Contract Security Controls
 
@@ -79,7 +102,12 @@ Publish governance decisions, treasury movements, and risk assessments.
 * Regulatory alignment
 * Reduce jurisdictional arbitrage risks by aligning with frameworks like MiCA.  
 
+-----
+
 
 ## References 
+
+-----
+
 * [SEC proposal - "Ethical and Modular Framework for Governance of Tokenized Assets Linied to Sovereign Debt"](https://www.sec.gov/files/ctf-written-input-daniel-bruno-corvelo-costa-091125.pdf)
 * ["Tokenomics 101” - Coinbase Learn](https://www.coinbase.com/learn/wallet/tokenomics-101)
