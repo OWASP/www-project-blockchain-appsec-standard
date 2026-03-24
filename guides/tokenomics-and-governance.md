@@ -6,13 +6,22 @@ author: ["Zoe Braiterman"]
 tags: ["tokenomics", "governance"]
 ---
 
+-----
+
 
 ## Definition of Blockchain Tokenomics and Governance 
 
+-----
+
 Blockchain tokenomics and governance mechanisms define how value flows, how decisions are made, and how power is distributed across a protocol.
+
+-----
 
 
 ## Overview of Relevant Security Concerns
+
+-----
+
 Tokenomics and governance are not just economic or organizational constructs—they are core security surfaces. Failures in these areas have repeatedly led to billion‑dollar losses, ecosystem collapses, and long‑term trust erosion.
 When these systems are poorly designed or insufficiently secured, they create systemic risks that can destabilize entire ecosystems.
 
