@@ -149,16 +149,16 @@ By following this streamlined workflow—without the tagging step and without an
 
 ❌ NOT‑TODO – Actions You Should Avoid and Reason to Avoid
 
-1.	**Signing NDAs or contracts received via a plain‑text email attachment (e.g., a PDF with a “Sign here” line):** No cryptographic proof of signer identity; easy to forge or tamper<br>
-2.	**Downloading and opening “urgent” files from unverified sources (random links, DM attachments):**	High probability of malware or phishing payloads<br>
-3.	**Re‑using the same password across multiple platforms (YouTube, email, cloud storage, social media):**	A single breach gives attackers access to everything<br>
-4.	**Storing NDAs on a local desktop without encryption:**	If the device is stolen or infected, the contracts are exposed<br>
-5.	**Relying solely on “trust” when a collaborator claims to be a brand representative:**	Social‑engineering attacks often masquerade as trusted partners<br>
-6.	**Leaving public comment sections open for direct file requests (e.g., “DM me the script”):**	Encourages spammers and malicious actors to target the creator<br>
-7.	**Using outdated antivirus or security software:**	Newer malware can bypass old definitions<br>
-8.	**Accepting “free” software or plugins that claim to boost video production without verification:**	May contain hidden backdoors or telemetry that leaks credentials<br>
-9.	**Skipping the “pause‑and‑verify” step on time‑pressured requests:**	Pressure tactics are a classic phishing technique<br>
-10.	**Sharing personal phone numbers or private email addresses publicly:**	Gives attackers a direct line for social‑engineering or SIM‑swap attacks<br>
+**1.	Signing NDAs or contracts received via a plain‑text email attachment (e.g., a PDF with a “Sign here” line):** No cryptographic proof of signer identity; easy to forge or tamper<br>
+**2.	Downloading and opening “urgent” files from unverified sources (random links, DM attachments):**	High probability of malware or phishing payloads<br>
+**3.	Re‑using the same password across multiple platforms (YouTube, email, cloud storage, social media):**	A single breach gives attackers access to everything<br>
+**4.	Storing NDAs on a local desktop without encryption:**	If the device is stolen or infected, the contracts are exposed<br>
+**5.	Relying solely on “trust” when a collaborator claims to be a brand representative:**	Social‑engineering attacks often masquerade as trusted partners<br>
+**6.	Leaving public comment sections open for direct file requests (e.g., “DM me the script”):**	Encourages spammers and malicious actors to target the creator<br>
+**7.	Using outdated antivirus or security software:**	Newer malware can bypass old definitions<br>
+**8.	Accepting “free” software or plugins that claim to boost video production without verification:**	May contain hidden backdoors or telemetry that leaks credentials<br>
+**9.	Skipping the “pause‑and‑verify” step on time‑pressured requests:**	Pressure tactics are a classic phishing technique<br>
+**10.	Sharing personal phone numbers or private email addresses publicly:**	Gives attackers a direct line for social‑engineering or SIM‑swap attacks<br>
 
 --------
 
