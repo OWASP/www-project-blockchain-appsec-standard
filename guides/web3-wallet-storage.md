@@ -1,4 +1,10 @@
-# Types of Web3 Wallet Storage
+---
+
+title: Types of Web3 Wallet Storage
+layout: col-sidebar
+author: ["Zoe Braiterman"]
+tags: ["web3 wallet", "secure storage"]
+---
 
 
 
