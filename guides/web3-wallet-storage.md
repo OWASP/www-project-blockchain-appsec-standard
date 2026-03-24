@@ -84,7 +84,7 @@ The following are some of the drawbacks of using software wallets instead of har
 * Private keys are often stored on connected devices
 
 
-Some well-known examples of hardware wallets are 
+Some well-known examples of software wallets are 
 
 * **[MetaMask](https://metamask.io):** A leading wallet for Ethereum and Ethereum-compatible (EVM) blockchains, available as a browser extension and mobile app. It is widely used for DeFi, NFTs, and dApp interactions, with over 21 million monthly active users 
  **[Trust Wallet](https://trustwallet.com):** A mobile‑only wallet (iOS & Android) supporting 60+ blockchains and millions of assets. Owned by Binance, it’s praised for its usability and dApp/NFT support  
