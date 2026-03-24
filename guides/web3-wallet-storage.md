@@ -7,8 +7,12 @@ tags: ["web3 wallet", "secure storage"]
 ---
 
 
+-----
+
 
 ## Hardware Wallets
+
+-----
 
 Hardware wallets, also known as “cold wallets”, are web3 wallets that are kept offline, often in physical hardware devices.
 
@@ -48,8 +52,12 @@ Some well-known examples of hardware wallets are
 **[SafePal](https://www.safepal.com):** Backed by Binance, the SafePal S1 is an affordable, air-gapped wallet that supports over 100 blockchains. It connects to a mobile app via QR code, making it easy to access DeFi apps, NFTs, and token swaps. Its low cost and wide asset support make it a top choice for users looking to secure a diverse portfolio without breaking the bank.
 **[Ellipal Titan](https://www.ellipal.com):** The Ellipal Titan 2.0 is a rugged, air-gapped hardware wallet with a full touchscreen and military-grade security. It communicates via QR codes and supports thousands of cryptocurrencies and NFTs. Known for its tamper-proof body and strong mobile integration, it’s a solid choice for those seeking a secure, self-contained wallet that’s great for DeFi and Web3 on the go.
 
+-----
+
 
 ## Software Wallets
+
+-----
 
 Software wallets, also known as “hot wallets”, are web3 wallets that are connected to the Internet. They are typically made available for installation and use in some combination of the following. 
 Browser extensions
