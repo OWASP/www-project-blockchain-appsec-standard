@@ -134,9 +134,9 @@ By following this streamlined workflow—without the tagging step and without an
 
 
 
-✅ TODO – Actions You Should Take
+##✅ TODO – Actions You Should Take
 
-#	Action	Why It Matters	Quick Implementation
+###	Action	Why It Matters	Quick Implementation
 1.	Separate personal & creator accounts (Google, email, social)	Limits exposure if one account is compromised	Create a new Gmail/Google Workspace account solely for the channel; enable MFA on both<br>
 2.	Enable Multi‑Factor Authentication (MFA) on every service (YouTube, email, cloud storage, password manager)	Stops attackers who obtain passwords	Use authenticator apps (Google Authenticator, Authy) or hardware keys (YubiKey)<br>
 3.	Adopt a verified digital‑signature platform (DocuSign, HelloSign, Adobe Sign) for all NDAs	Guarantees the signer’s identity and creates tamper‑evident records	Set up a company account, add a signing template, require signers to verify their email domain<br>
