@@ -74,7 +74,7 @@ There have been many hacks covered in the news that have involved some combinati
 1️⃣ Initial Receipt – Email → Cloud Storage
 Step	Action	Why it’s safe	Tools / Settings
 1.1	Do not open any attachment directly in the mail client.	Stops accidental execution of malicious code.	Outlook / Gmail – turn the preview pane off.
-1.2	Save the attachment to a company‑approved cloud repository (Google Drive, OneDrive for Business, SharePoint, Box).	Centralised storage enforces DLP, versioning, and strict access‑control policies.	Drag‑and‑drop into a dedicated Inbox‑Files folder (view‑only for everyone except the owner).
+1.2	Save the attachment to a company‑approved cloud repository (Google Drive, OneDrive for Business, SharePoint, Box).	Centralized storage enforces DLP, versioning, and strict access‑control policies.	Drag‑and‑drop into a dedicated Inbox‑Files folder (view‑only for everyone except the owner).
 1.3	Notify the security liaison (Slack #security‑ops, Teams channel, or ticket) that a new file is awaiting review.	Creates an audit trail and ensures the file is inspected before any downstream use.	Set up an automatic email/notification from the cloud platform to CC security@yourorg.com.
 ---
 
