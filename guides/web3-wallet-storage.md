@@ -86,16 +86,16 @@ The following are some of the drawbacks of using software wallets instead of har
 
 Some well-known examples of hardware wallets are 
 
-**[MetaMask](https://metamask.io):** A leading wallet for Ethereum and Ethereum-compatible (EVM) blockchains, available as a browser extension and mobile app. It is widely used for DeFi, NFTs, and dApp interactions, with over 21 million monthly active users 
-**[Trust Wallet](https://trustwallet.com):** A mobile‑only wallet (iOS & Android) supporting 60+ blockchains and millions of assets. Owned by Binance, it’s praised for its usability and dApp/NFT support  
-**[Coinbase Wallet](https://www.coinbase.com/wallet):** A software wallet separate from the Coinbase exchange, offering full self‑custody control, integration with many EVM chains and NFTs, and accessible desktop/mobile/browser usage  
-**[Phantom](https://phantom.com):** Originally built for Solana, Phantom now supports Ethereum and Polygon too. Offers staking, NFT galleries, token swaps, and browser/mobile versions  .
-**[Rainbow](https://rainbow.me):** An Ethereum-first wallet (desktop + mobile) with intuitive UI, DeFi/NFT features, fiat on‑ramps, and portfolio display across chains like Arbitrum, Polygon, etc.  .
-**[Ready](https://www.ready.co):** An Ethereum smart contract wallet optimized for DeFi, with social‑recovery and no seed‑phrase, gas fee optimizations, built‑in wallet recovery, and mobile‑first design  
-**[Zerion Wallet](https://zerion.io):** A multi‑chain wallet centered around DeFi and portfolio tracking. Connects with multiple dApps via WalletConnect, supports token swapping and staking across many chains  .
-**[Keplr](https://www.keplr.app):** A browser and mobile wallet tailored to the Cosmos ecosystem (Cosmos Hub, Osmosis, Injective, Celestia, Evmos, etc.), enabling staking, IBC transfers, and validator delegation  
-**[Talisman](https://talisman.xyz):** Originally Polkadot-native, now supports Ethereum, parachain staking, multi‑chain support, and a unified dashboard; ideal for Polkadot users and multi‑chain engagement  
-**[Gnosis Safe](https://safe.global):** A highly secure smart-contract multi-signature wallet for Ethereum and EVM chains, used by DAOs and teams. Requires multiple signatures per transaction, excellent for treasury or joint control  
+* **[MetaMask](https://metamask.io):** A leading wallet for Ethereum and Ethereum-compatible (EVM) blockchains, available as a browser extension and mobile app. It is widely used for DeFi, NFTs, and dApp interactions, with over 21 million monthly active users 
+ **[Trust Wallet](https://trustwallet.com):** A mobile‑only wallet (iOS & Android) supporting 60+ blockchains and millions of assets. Owned by Binance, it’s praised for its usability and dApp/NFT support  
+* **[Coinbase Wallet](https://www.coinbase.com/wallet):** A software wallet separate from the Coinbase exchange, offering full self‑custody control, integration with many EVM chains and NFTs, and accessible desktop/mobile/browser usage  
+* **[Phantom](https://phantom.com):** Originally built for Solana, Phantom now supports Ethereum and Polygon too. Offers staking, NFT galleries, token swaps, and browser/mobile versions  .
+* **[Rainbow](https://rainbow.me):** An Ethereum-first wallet (desktop + mobile) with intuitive UI, DeFi/NFT features, fiat on‑ramps, and portfolio display across chains like Arbitrum, Polygon, etc.  .
+* **[Ready](https://www.ready.co):** An Ethereum smart contract wallet optimized for DeFi, with social‑recovery and no seed‑phrase, gas fee optimizations, built‑in wallet recovery, and mobile‑first design  
+* **[Zerion Wallet](https://zerion.io):** A multi‑chain wallet centered around DeFi and portfolio tracking. Connects with multiple dApps via WalletConnect, supports token swapping and staking across many chains  .
+* **[Keplr](https://www.keplr.app):** A browser and mobile wallet tailored to the Cosmos ecosystem (Cosmos Hub, Osmosis, Injective, Celestia, Evmos, etc.), enabling staking, IBC transfers, and validator delegation  
+* **[Talisman](https://talisman.xyz):** Originally Polkadot-native, now supports Ethereum, parachain staking, multi‑chain support, and a unified dashboard; ideal for Polkadot users and multi‑chain engagement  
+* **[Gnosis Safe](https://safe.global):** A highly secure smart-contract multi-signature wallet for Ethereum and EVM chains, used by DAOs and teams. Requires multiple signatures per transaction, excellent for treasury or joint control  
 
 
 ### References 
