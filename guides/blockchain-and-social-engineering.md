@@ -136,29 +136,29 @@ By following this streamlined workflow—without the tagging step and without an
 
 ✅ TODO – Actions You Should Take and Why It Matters – Quick Implementation
 
-1.	Separate personal & creator accounts (Google, email, social)	Limits exposure if one account is compromised	Create a new Gmail/Google Workspace account solely for the channel; enable MFA on both<br>
-2.	Enable Multi‑Factor Authentication (MFA) on every service (YouTube, email, cloud storage, password manager)	Stops attackers who obtain passwords	Use authenticator apps (Google Authenticator, Authy) or hardware keys (YubiKey)<br>
-3.	Adopt a verified digital‑signature platform (DocuSign, HelloSign, Adobe Sign) for all NDAs	Guarantees the signer’s identity and creates tamper‑evident records	Set up a company account, add a signing template, require signers to verify their email domain<br>
-4.	Sandbox all inbound PDFs/Apps before opening them	Prevents malware from reaching your main workstation	Use a virtual machine (VMware/VirtualBox) or a cloud‑based sandbox (VirusTotal, Hybrid Analysis)<br>
-5.	Use expiring, permission‑gated links for sharing assets (Google Drive, Dropbox, OneDrive)	Reduces risk of accidental leakage and limits file‑share abuse	Enable “link expires after X days” and “view‑only” options; rotate passwords regularly<br>
-6.	Store every NDA in an encrypted, version‑controlled repository (e.g., Git with GPG encryption, BitLocker‑protected folder)	Guarantees integrity, auditability, and quick retrieval	Create a private repo, commit each signed NDA, tag with date and collaborator<br>
-7.	Maintain a whitelist of approved collaborators (email addresses, domains, phone numbers)	Stops imposters posing as “friends” or “brand reps”	Keep the list in a secure password‑manager note; any new request must be cross‑checked<br>
-8.	Run quarterly security drills (phishing simulations, mock NDA requests)	Keeps the crew alert and identifies gaps	Use tools like KnowBe4 or simply send a crafted phishing email internally and debrief<br>
-9.	Log all contract‑related activity (who sent, who signed, timestamps) in an immutable ledger or simple spreadsheet with change‑history	Provides forensic evidence if a dispute arises	Use Google Sheets with “Version History” or a blockchain‑based audit log (e.g., Ethereum‑based immutable storage)<br>
-10.	Disable direct‑file DMs from unknown accounts on all platforms (YouTube, Instagram, Twitter)	Removes a common infection vector	Adjust privacy settings; route all file requests through verified email or the whitelisted cloud links
-❌ NOT‑TODO – Actions You Should Avoid
+**1.	Separate personal & creator accounts (Google, email, social):**	Limits exposure if one account is compromised	Create a new Gmail/Google Workspace account solely for the channel; enable MFA on both<br>
+**2.	Enable Multi‑Factor Authentication (MFA) on every service (YouTube, email, cloud storage, password manager)	Stops attackers who obtain passwords:**	Use authenticator apps (Google Authenticator, Authy) or hardware keys (YubiKey)<br>
+**3.	Adopt a verified digital‑signature platform (DocuSign, HelloSign, Adobe Sign) for all NDAs:**	Guarantees the signer’s identity and creates tamper‑evident records	Set up a company account, add a signing template, require signers to verify their email domain<br>
+**4.	Sandbox all inbound PDFs/Apps before opening them:**	Prevents malware from reaching your main workstation	Use a virtual machine (VMware/VirtualBox) or a cloud‑based sandbox (VirusTotal, Hybrid Analysis)<br>
+**5.	Use expiring, permission‑gated links for sharing assets (Google Drive, Dropbox, OneDrive):**	Reduces risk of accidental leakage and limits file‑share abuse	Enable “link expires after X days” and “view‑only” options; rotate passwords regularly<br>
+**6.	Store every NDA in an encrypted, version‑controlled repository (e.g., Git with GPG encryption, BitLocker‑protected folder):**	Guarantees integrity, auditability, and quick retrieval	Create a private repo, commit each signed NDA, tag with date and collaborator<br>
+**7.	Maintain a whitelist of approved collaborators (email addresses, domains, phone numbers):**	Stops imposters posing as “friends” or “brand reps”	Keep the list in a secure password‑manager note; any new request must be cross‑checked<br>
+**8.	Run quarterly security drills (phishing simulations, mock NDA requests)	Keeps the crew alert and identifies gaps:**	Use tools like KnowBe4 or simply send a crafted phishing email internally and debrief<br>
+**9.	Log all contract‑related activity (who sent, who signed, timestamps) in an immutable ledger or simple spreadsheet with change‑history:**	Provides forensic evidence if a dispute arises	Use Google Sheets with “Version History” or a blockchain‑based audit log (e.g., Ethereum‑based immutable storage)<br>
+**10.	Disable direct‑file DMs from unknown accounts on all platforms (YouTube, Instagram, Twitter):**	Removes a common infection vector	Adjust privacy settings; route all file requests through verified email or the whitelisted cloud links<br>
 
-#	Action	Reason to Avoid
-1	Signing NDAs or contracts received via a plain‑text email attachment (e.g., a PDF with a “Sign here” line)	No cryptographic proof of signer identity; easy to forge or tamper
-2	Downloading and opening “urgent” files from unverified sources (random links, DM attachments)	High probability of malware or phishing payloads
-3	Re‑using the same password across multiple platforms (YouTube, email, cloud storage, social media)	A single breach gives attackers access to everything
-4	Storing NDAs on a local desktop without encryption	If the device is stolen or infected, the contracts are exposed
-5	Relying solely on “trust” when a collaborator claims to be a brand representative	Social‑engineering attacks often masquerade as trusted partners
-6	Leaving public comment sections open for direct file requests (e.g., “DM me the script”)	Encourages spammers and malicious actors to target the creator
-7	Using outdated antivirus or security software	Newer malware can bypass old definitions
-8	Accepting “free” software or plugins that claim to boost video production without verification	May contain hidden backdoors or telemetry that leaks credentials
-9	Skipping the “pause‑and‑verify” step on time‑pressured requests	Pressure tactics are a classic phishing technique
-10	Sharing personal phone numbers or private email addresses publicly	Gives attackers a direct line for social‑engineering or SIM‑swap attacks
+❌ NOT‑TODO – Actions You Should Avoid and Reason to Avoid
+
+1.	**Signing NDAs or contracts received via a plain‑text email attachment (e.g., a PDF with a “Sign here” line):** No cryptographic proof of signer identity; easy to forge or tamper<br>
+2.	**Downloading and opening “urgent” files from unverified sources (random links, DM attachments):**	High probability of malware or phishing payloads<br>
+3.	**Re‑using the same password across multiple platforms (YouTube, email, cloud storage, social media):**	A single breach gives attackers access to everything<br>
+4.	**Storing NDAs on a local desktop without encryption:**	If the device is stolen or infected, the contracts are exposed<br>
+5.	**Relying solely on “trust” when a collaborator claims to be a brand representative:**	Social‑engineering attacks often masquerade as trusted partners<br>
+6.	**Leaving public comment sections open for direct file requests (e.g., “DM me the script”):**	Encourages spammers and malicious actors to target the creator<br>
+7.	**Using outdated antivirus or security software:**	Newer malware can bypass old definitions<br>
+8.	**Accepting “free” software or plugins that claim to boost video production without verification:**	May contain hidden backdoors or telemetry that leaks credentials<br>
+9.	**Skipping the “pause‑and‑verify” step on time‑pressured requests:**	Pressure tactics are a classic phishing technique<br>
+10.	**Sharing personal phone numbers or private email addresses publicly:**	Gives attackers a direct line for social‑engineering or SIM‑swap attacks<br>
 
 --------
 
