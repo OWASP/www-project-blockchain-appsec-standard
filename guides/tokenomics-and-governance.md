@@ -25,8 +25,12 @@ Recent data shows the scale of the problem.
 
 These events highlight why tokenomics and governance must be treated as core security domains—not just economic design choices.
 
+-----
+
 
 ## Key Threats, Likelihood and Impact
+
+-----
 
 | Threat  | Likelihood |  Impact | Notes |
 |-------|-------|-------|-------|
@@ -38,8 +42,12 @@ These events highlight why tokenomics and governance must be treated as core sec
 | Regulatory arbitrage and unclear jurisdiction | Medium  | Moderate-High   | Governance failures combined with regulatory gaps erode trust and cause token value drops. |
 | Centralized admin keys or upgrade authority | High  | Severe| A single compromised key can drain funds or alter tokenomics instantly. |
 
+-----
+
 
 ## Security Controls & Mitigation Techniques
+
+-----
 
 ### 1. Smart Contract Security Controls
 
@@ -85,7 +93,12 @@ Publish governance decisions, treasury movements, and risk assessments.
 * Regulatory alignment
 * Reduce jurisdictional arbitrage risks by aligning with frameworks like MiCA.  
 
+-----
+
 
 ## References 
+
+-----
+
 * [SEC proposal - "Ethical and Modular Framework for Governance of Tokenized Assets Linied to Sovereign Debt"](https://www.sec.gov/files/ctf-written-input-daniel-bruno-corvelo-costa-091125.pdf)
 * ["Tokenomics 101” - Coinbase Learn](https://www.coinbase.com/learn/wallet/tokenomics-101)
