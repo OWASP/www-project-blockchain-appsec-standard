@@ -8,9 +8,9 @@ To get started with contributing to any OWASP project, please follow these steps
 
 1. [Join](http://owasp.org/slack/invite) the [OWASP Slack workspace](https://owasp.slack.com) to connect with the OWASP community and get help with any questions you may have.
 
-2. Review the [OWASP Projects](https://owasp.org/projects/) page to browse the list of OWASP projects and find a project that aligns with your interests and skills.
+2. Visit the project's [repository](https://github.com/OWASP/www-project-blockchain-appsec-standard) to familiarize yourself with the project goals and objectives. 
 
-3. Visit the project's individual page and repository to familiarize yourself with the project goals and objectives.
+3. Choose a [guide](https://github.com/OWASP/www-project-blockchain-appsec-standard/tree/main/guides) to which you would like to contribute, or decide on a guide on an additional topic if it does not yet exist.
 
 4. Fork the repository and clone it to your local machine.
 
@@ -38,4 +38,4 @@ Before submitting a pull request, please make sure:
 
 We ask that all contributors to OWASP projects abide by our [Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct). This code outlines our expectations for behavior within the project community and helps us maintain a welcoming and inclusive environment for all contributors.
 
-Thank you for your interest in contributing to an OWASP project. We appreciate your efforts to help us improve and grow our projects.
+Thank you for your interest in contributing to the OWASP Blockchain AppSec Standard. We appreciate your efforts to help us improve and grow our project.
