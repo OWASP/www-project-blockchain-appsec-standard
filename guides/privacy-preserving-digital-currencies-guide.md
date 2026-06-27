@@ -21,13 +21,14 @@ As regulators increasingly scrutinize digital assets, newer privacy platforms ar
 | Platform | Privacy Default | Cryptography | Smart Contracts | Selective Disclosure | Regulatory Position |
 |------------|----------------|--------------|-----------------|----------------------|--------------------|
 | Monero | Yes | Ring Signatures + RingCT + Stealth Addresses | No | No | High regulatory concern |
-| Zcash | Optional | zk-SNARKs | Limited | Yes | Moderate |
+| Zcash | Optional | zk-SNARKs | No | Yes | Moderate |
 | Dash | Optional | CoinJoin | No | No | Lower |
-| Midnight | Selective | Zero-Knowledge Proofs | Yes | Yes | Compliance-oriented |
+| Midnight | Selective | zk-SNARKs | Yes | Yes | Compliance-oriented |
 | Firo | Optional | Lelantus Spark | No | Limited | Moderate |
 | Secret Network | Application-level | Trusted Execution Environment | Yes | Yes | Moderate |
-| Oasis Network | Application-level | Confidential Computing | Yes | Yes | Enterprise-friendly |
+| Oasis Network | Application-level | Trusted Execution Environment | Yes | Yes | Enterprise-friendly |
 | Aleo | Private by default | Zero-Knowledge Proofs | Yes | Yes | Emerging |
+| Canton Network | Permissioned / need-to-know | Daml smart contracts + participant-level privacy | Yes | Yes | Enterprise/regulatory-friendly |
 
 ---
 
@@ -332,10 +333,6 @@ Midnight targets:
 
 ---
 
-# Other Major Privacy Platforms
-
----
-
 # Firo (FIRO)
 
 Formerly Zcoin.
@@ -394,6 +391,22 @@ Features include:
 - Private tokens
 - Private identities
 - Programmable zero-knowledge applications
+
+---
+
+# Canton Network
+
+Canton Network is a privacy-enabled, permissioned blockchain network designed for institutional digital assets and regulated financial workflows.
+
+Unlike public privacy coins, Canton limits transaction visibility to the participants and authorized parties involved in each workflow.
+
+Features include:
+
+- Daml smart contracts
+- Participant-level privacy
+- Selective disclosure
+- Institutional interoperability
+- Compliance-focused controls
 
 ---
 
