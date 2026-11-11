@@ -80,22 +80,6 @@ Community participation helps keep the standard useful, accurate, and relevant. 
 
 Please follow the [Contributing Guidelines](CONTRIBUTING.md) and the [OWASP Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct).
 
-## Documentation maintenance
-
-The README is the entry point for understanding the project's purpose, scope, terminology, audience, and contribution process. Keep it concise enough to orient new readers while linking to detailed guidance in the `guides/` directory.
-
-When maintaining this repository:
-
-- **Keep project metadata aligned.** Ensure the README, GitHub repository description and topics, OWASP project metadata, and project website describe the same purpose and scope.
-- **Use consistent terminology.** Define important terms once where practical, use them consistently across guides, and explain specialized terms in their relevant context.
-- **Maintain clear scope boundaries.** Add or revise coverage descriptions when the project takes on new areas; distinguish this project's application and system security focus from related OWASP standards such as SCVS.
-- **Prefer modular documentation.** Put detailed, topic-specific material in individual guides and link to it from the project overview rather than allowing the README to become a duplicate of the knowledge base.
-- **Use traceable references.** Prefer authoritative technical documentation and recognized security resources. Review links and references when content changes.
-- **Review changes for consistency.** Check that new or revised material fits the project purpose, audience, terminology, and scope, and update cross-references when files move or topics change.
-- **Revisit the overview periodically.** Review this README when project priorities, covered technologies, audience, or repository structure materially change.
-
-Keep the README aligned with the OWASP repository's GitHub topics. When a topic is added, removed, or renamed, reflect the change in the relevant purpose, scope, audience, or maintenance guidance rather than adding a standalone keyword list.
-
 ## License
 
 This repository's content is licensed under the [Apache License, Version 2.0](LICENSE.md). You may use, reproduce, and distribute the licensed materials in accordance with the terms and conditions in that file. Please review [LICENSE.md](LICENSE.md) for the complete license text, permissions, and conditions.
