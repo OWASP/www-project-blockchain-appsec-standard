@@ -1,6 +1,6 @@
 ## Pull Request Description
 
-<!-- Describe the purpose of this pull request and summarize the changes. →
+<!-- Describe the purpose of this pull request and summarize the changes. -->
 
 ## Change Type
 
@@ -15,7 +15,7 @@ Select all applicable change types:
 ## Scope and Impact
 
 - **Affected guides or project areas:**
-- **Intended audience:** 
+- **Intended audience:**
 - **Security problem or documentation gap addressed:**
 
 ## Supporting References
