@@ -93,6 +93,10 @@ Contributors may include developers, security researchers, reviewers, technical 
 - [Contributing guidelines](CONTRIBUTING.md)
 - [OWASP Smart Contract Security Verification Standard](https://owasp.org/www-project-smart-contract-security-verification-standard/)
 
+## License
+
+This repository's content is licensed under the [Apache License, Version 2.0](LICENSE.md). You may use, reproduce, and distribute the licensed materials in accordance with the terms and conditions in that file. Please review [LICENSE.md](LICENSE.md) for the complete license text, permissions, and conditions.
+
 ## Contributing
 
 Community participation helps keep the standard useful, accurate, and relevant. To contribute:
