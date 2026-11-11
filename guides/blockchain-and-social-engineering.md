@@ -9,7 +9,7 @@ tags: ["social engineering"]
 ---
 
 
-## Briefing Introduction - Overview of the Blockchain Social Engineering Lanscape
+## Briefing Introduction - Overview of the Blockchain Social Engineering Landscape
 
 ---
 
@@ -31,15 +31,32 @@ Attackers use social engineering, because people and processes are the easiest r
 
 Below are some potential attacker incentives, along with proposed ways to address them. 
 
-* **Access to Public Persona Data:** real name, email, socials, schedule:	Gives attackers a phish‑ready address list	• Keep personal e‑mail off the channel page.<br>• Use a dedicated creator inbox with strong MFA.<br>• Publish only a pseudonym for public contact.
-* **Eager for Exclusive Deals – “Only a few get this NDA”:**	Social‑engineers pose as brand reps or collab offers	• Verify every NDA request via a known brand channel (e.g., official business email or verified LinkedIn).<br>• Require a digital signature platform (DocuSign, HelloSign) that logs the signer’s domain.
-* **Trust in “Friends” & Guest‑Speakers- Scammers pose as fellow creators, friends or colleagues:**	• Use a double‑check (call the person on a pre‑known number).<br>• Maintain a whitelist of approved collaborators in a secure vault.
-* **Downloading “Special” PDFs/Apps – promised scripts, assets, or analytics:**	Infected files can hijack the channel’s computer or leak credentials	• Sandbox every attachment in a VM before opening.<br>• Run an up‑to‑date anti‑malware scanner on all inbound files.<br>• Prefer cloud‑based links with expiring tokens over direct PDFs.
-* **Click‑Through on “Urgent” Links – “Sign the NDA now or lose the deal!”:**	Pressure tactics push creators to bypass security	• Adopt a “pause‑and‑verify” rule: no signing under < 5 minutes of receipt.<br>• Use URL‑expansion tools (e.g., CheckShortURL) before clicking.
-* **Lack of Contract Visibility – not storing NDAs centrally:**	Lost or outdated contracts can be forged	• Store every NDA in an encrypted, version‑controlled repository (e.g., Git‑encrypted, BitLocker).<br>• Enable audit logs for any access or edit.
-* **Weak Password Hygiene – re‑using passwords across services	Once cracked, attackers roam the creator’s ecosystem:**	• Deploy a password manager with unique, strong passwords.<br>• Enforce MFA on all platforms (YouTube, Google, email).
-* **Social Media “DM” Requests – “Hey, send me the draft file”:**	Direct messages bypass email filters	• Disable file‑receiving DMs from unknown accounts.<br>• Use a verified business page for any file exchange.
-* **Insufficient Training – crew not aware of modern scams:**	Human error remains the cheapest entry point	• Conduct a quarter‑ly security drill (phish‑test, mock NDA).<br>• Share a quick‑ref cheat‑sheet (what to verify, who to call).
+* **Access to Public Persona Data:** real name, email, socials, schedule:	Gives attackers a phish‑ready address list
+  • Keep personal e‑mail off the channel page.<br>• Use a dedicated creator inbox with strong MFA.<br>
+  • Publish only a pseudonym for public contact.
+* **Eager for Exclusive Deals – “Only a few get this NDA”:**	Social‑engineers pose as brand reps or collab offers
+  • Verify every NDA request via a known brand channel (e.g., official business email or verified LinkedIn)
+  • Require a digital signature platform (DocuSign, HelloSign) that logs the signer’s domain.
+* **Trust in “Friends” & Guest‑Speakers- Scammers pose as fellow creators, friends or colleagues:**
+  • Use a double‑check (call the person on a pre‑known number)
+  • Maintain a whitelist of approved collaborators in a secure vault.
+* **Downloading “Special” PDFs/Apps – promised scripts, assets, or analytics:**	Infected files can hijack the channel’s computer or leak credentials
+  • Sandbox every attachment in a VM before opening.
+  • Run an up‑to‑date anti‑malware scanner on all inbound files.
+  • Prefer cloud‑based links with expiring tokens over direct PDFs.
+* **Click‑Through on “Urgent” Links – “Sign the NDA now or lose the deal!”:**	Pressure tactics push creators to bypass security
+  • Adopt a “pause‑and‑verify” rule: no signing under 5 minutes of receipt.
+  • Use URL‑expansion tools (e.g., CheckShortURL) before clicking.
+* **Lack of Contract Visibility – not storing NDAs centrally:**	Lost or outdated contracts can be forged
+  • Store every NDA in an encrypted, version‑controlled repository (e.g., Git‑encrypted, BitLocker).
+  • Enable audit logs for any access or edit.
+* **Weak Password Hygiene – re‑using passwords across services	Once cracked, attackers roam the creator’s ecosystem:**
+  • Deploy a password manager with unique, strong passwords.<br>• Enforce MFA on all platforms (YouTube, Google, email).
+* **Social Media “DM” Requests – “Hey, send me the draft file”:**	Direct messages bypass email filters
+  • Disable file‑receiving DMs from unknown accounts.<br>• Use a verified business page for any file exchange.
+* **Insufficient Training – crew not aware of modern scams:**	Human error remains the cheapest entry point
+  • Conduct a quarter‑ly security drill (phish‑test, mock NDA).
+  • Share a quick‑ref cheat‑sheet (what to verify, who to call).
 
 These incentives map directly to attacker tactics: short, noisy coups to cash out vs. stealthy persistence to escalate later.
 
