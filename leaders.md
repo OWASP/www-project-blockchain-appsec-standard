@@ -5,4 +5,3 @@
 
 ### Contributors
 * Antara Mane
-* [johnny5i](https://github.com/bytewizard42i)
