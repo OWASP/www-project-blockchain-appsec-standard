@@ -37,4 +37,4 @@ Using an elliptic curve algorithm, private and public key pairs are created (up 
 * **Web3** is the vision of a decentralized Internet.
 * **Blockchain** is the underlying technology that enables decentralisation.
 * **Smart Contracts** are the tools used to automate and enforce agreements on the blockchain.
-Further resources and more advanced topics for blockchain and web3 are at the [appendice](#advanced-topics-and-further-resources:).
+Further resources and more advanced topics for blockchain and Web3 are available in the project guides.
