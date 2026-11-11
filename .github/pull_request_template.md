@@ -1,4 +1,4 @@
-## Pull Request Description
+# Pull Request Description
 
 <!-- Describe the purpose of this pull request and summarize the changes. -->
 
@@ -20,7 +20,8 @@ Select all applicable change types:
 
 ## Supporting References
 
-<!-- Include authoritative sources, standards, research, or technical documentation. -->
+<!-- Include authoritative sources, standards, research, or technical
+documentation. -->
 
 ## Security and Technical Review
 
@@ -33,4 +34,5 @@ Select all applicable change types:
 
 ## Additional Notes
 
-<!-- Include testing performed, reviewer considerations, or outstanding questions. -->
+<!-- Include testing performed, reviewer considerations, or outstanding
+questions. -->
