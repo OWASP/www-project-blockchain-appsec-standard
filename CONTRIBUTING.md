@@ -8,7 +8,7 @@ To get started with contributing to any OWASP project, please follow these steps
 
 1. [Join](http://owasp.org/slack/invite) the [OWASP Slack workspace](https://owasp.slack.com) to connect with the OWASP community and get help with any questions you may have.
 
-2. Visit the project's [repository](https://github.com/OWASP/www-project-blockchain-appsec-standard) to familiarize yourself with the project goals and objectives. 
+2. Visit the project's [repository](https://github.com/OWASP/www-project-blockchain-appsec-standard) to familiarize yourself with the project goals and objectives.
 
 3. Choose a [guide](https://github.com/OWASP/www-project-blockchain-appsec-standard/tree/main/guides) to which you would like to contribute, or decide on a guide on an additional topic if it does not yet exist.
 
