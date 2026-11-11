@@ -1,19 +1,38 @@
-name: Markdown Linter
+
+name: Markdown Formatting Validation
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+    paths:
+      - '**.md'
+      - '**.markdown'
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
-  markdownlint:
+  markdown-lint:
+    name: Validate Markdown
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
+      - name: Check out repository
         uses: actions/checkout@v4
-        
-      - name: Run Markdown Lint
-        uses: DavidAnson/markdownlint-cli2-action@v16
         with:
-          globs: '**/*.md'
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run Markdown lint
+        run: |
+          npx --yes markdownlint-cli2 "**/*.md" "**/*.markdown"
