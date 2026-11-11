@@ -1,6 +1,8 @@
 # OWASP Blockchain AppSec Standard
 
-![OWASP Blockchain AppSec Standard](assets/images/owasp-blockchain-appsec-standard.PNG)
+<p align="center">
+  <img src="assets/images/owasp-blockchain-appsec-standard.PNG" alt="OWASP Blockchain AppSec Standard" width="600">
+</p>
 
 The **OWASP Blockchain AppSec Standard** is a community-driven knowledge base for understanding, assessing, and improving the security of blockchain-based applications and Web3 systems. It brings together security concepts, attack vectors, defensive practices, and practical resources to help teams make informed security decisions throughout the software development lifecycle (SDLC).
 
