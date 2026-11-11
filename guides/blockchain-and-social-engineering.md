@@ -32,7 +32,8 @@ Below are some potential attacker incentives, along with proposed ways to addres
 
 * **Access to Public Persona Data:** real name, email, socials, schedule: — Gives attackers a phish‑ready address list
 
-  • Keep personal e‑mail off the channel page.<br>• Use a dedicated creator inbox with strong MFA.<br>
+  • Keep personal e‑mail off the channel page.
+  • Use a dedicated creator inbox with strong MFA.
   • Publish only a pseudonym for public contact.
 
 * **Eager for Exclusive Deals – “Only a few get this NDA”:** — Social‑engineers pose as brand reps or collab offers
@@ -63,11 +64,13 @@ Below are some potential attacker incentives, along with proposed ways to addres
 
 * **Weak Password Hygiene – re‑using passwords across services — Once cracked, attackers roam the creator’s ecosystem:**
 
-  • Deploy a password manager with unique, strong passwords.<br>• Enforce MFA on all platforms (YouTube, Google, email).
+  • Deploy a password manager with unique, strong passwords.
+  • Enforce MFA on all platforms (YouTube, Google, email).
 
 * **Social Media “DM” Requests – “Hey, send me the draft file”:** — Direct messages bypass email filters
 
-  • Disable file‑receiving DMs from unknown accounts.<br>• Use a verified business page for any file exchange.
+  • Disable file‑receiving DMs from unknown accounts.
+  • Use a verified business page for any file exchange.
 
 * **Insufficient Training – crew not aware of modern scams:** — Human error remains the cheapest entry point
 
