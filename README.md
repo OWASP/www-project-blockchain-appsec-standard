@@ -4,7 +4,7 @@
   <img src="assets/images/owasp-blockchain-appsec-standard.PNG" alt="OWASP Blockchain AppSec Standard" width="600">
 </p>
 
-The **OWASP Blockchain AppSec Standard** is a community-driven knowledge base for understanding, assessing, and improving the security of blockchain-based applications and Web3 systems. It brings together security concepts, attack vectors, defensive practices, and practical resources to help teams make informed security decisions throughout the software development lifecycle (SDLC).
+The **OWASP Blockchain AppSec Standard** is a community-driven application security (AppSec) and information security (infosec) knowledge base for understanding, assessing, and improving the security of blockchain-based applications and Web3 systems. It brings together security concepts, attack vectors, defensive practices, and practical resources to help teams make informed security decisions throughout the software development lifecycle (SDLC).
 
 The project is part of the [OWASP Foundation](https://owasp.org/) and welcomes contributions from developers, architects, security practitioners, researchers, and other stakeholders working with blockchain technology.
 
@@ -24,44 +24,19 @@ The project is an educational and reference resource. It is not a certification,
 
 The standard focuses on **application and system security for blockchain and Web3 solutions**. Its coverage is intended to include security considerations associated with:
 
-- **Blockchain architecture and networks:** distributed ledgers, nodes, network components, consensus mechanisms, trust assumptions, and permissions.
-- **Application architecture and development:** decentralized applications (dApps), APIs, integrations, client applications, frameworks, libraries, and dependencies.
+- **Blockchain architecture and networks:** distributed ledger technologies, nodes, network components, consensus mechanisms, trust assumptions, and permissions that underpin blockchain systems.
+- **Application architecture and development:** Web3 decentralized applications (dApps), APIs, integrations, client applications, frameworks, libraries, and dependencies, with AppSec practices applied to their design and implementation.
 - **Identity, wallets, and cryptographic assets:** public- and private-key management, wallet security, authentication, authorization, and protection of digital assets.
-- **Secure software development:** security requirements, architecture and design review, threat modeling, secure implementation, configuration, and change management.
+- **Secure software development:** security requirements, architecture and design review, threat modeling, secure implementation, configuration, and change management across the SDLC.
 - **Security verification and testing:** code and configuration review, vulnerability assessment, penetration testing, and application and API security testing.
 - **Deployment and operations:** infrastructure and access controls, logging and monitoring, vulnerability and patch management, incident response, and forensic readiness.
-- **Governance and risk:** security policies, operational processes, and lifecycle practices that support the secure delivery and maintenance of blockchain solutions.
+- **Governance and risk:** information security policies, governance, operational processes, and lifecycle practices that support the secure delivery and maintenance of blockchain solutions.
 
 These areas provide a framework for organizing community knowledge. Specific guides and recommendations may be expanded, refined, or added as the project develops.
 
 ### Out of scope
 
 Detailed smart contract security verification is addressed by the separate [OWASP Smart Contract Security Verification Standard (SCVS)](https://owasp.org/www-project-smart-contract-security-verification-standard/). This project may explain smart contracts and reference smart contract risks where they are relevant to the wider application or system context, but it does not seek to duplicate SCVS.
-
-## Terminology and project topics
-
-The repository's GitHub topics describe the project's subject areas and help people discover related OWASP resources. The README uses those terms in context:
-
-| GitHub topic | How it relates to this project |
-| --- | --- |
-| `appsec` | Application security practices for blockchain-based applications, dApps, APIs, and integrations. |
-| `blockchain` | Distributed ledger technologies, networks, architecture, consensus, and associated components. |
-| `infosec` | Information security principles, threats, risk management, and protective controls. |
-| `owasp` | Community-developed security guidance aligned with the OWASP mission and resources. |
-| `policy` | Security policies, governance, permissions, and operational processes relevant to blockchain solutions. |
-| `sdlc` | Security activities across requirements, design, implementation, verification, deployment, and maintenance. |
-| `security` | The broader set of technical and organizational measures used to protect blockchain applications and supporting systems. |
-| `web3` | Decentralized applications, digital assets, wallets, and services built using blockchain technologies. |
-
-### Key concepts
-
-- **Blockchain:** A distributed ledger technology in which transactions are recorded and validated according to the rules and consensus mechanism of a network.
-- **Web3:** An ecosystem of applications and services that use decentralized technologies, including blockchain, to support interactions involving digital assets, identity, and data.
-- **Smart contract:** Code deployed to a blockchain that executes according to defined rules. Smart contract-specific verification is covered by SCVS.
-- **Application security (AppSec):** The practices used to identify, prevent, and manage security risks in software throughout its lifecycle.
-- **Software development lifecycle (SDLC):** The stages through which software is specified, designed, built, tested, deployed, operated, and maintained.
-
-These descriptions provide shared context. Individual guides should define specialized terms more precisely where needed.
 
 ## Intended audience
 
@@ -119,7 +94,7 @@ When maintaining this repository:
 - **Review changes for consistency.** Check that new or revised material fits the project purpose, audience, terminology, and scope, and update cross-references when files move or topics change.
 - **Revisit the overview periodically.** Review this README when project priorities, covered technologies, audience, or repository structure materially change.
 
-The GitHub topics are: `appsec`, `blockchain`, `infosec`, `owasp`, `policy`, `sdlc`, `security`, and `web3`. Update this list and the corresponding contextual descriptions if the OWASP repository's topics change.
+Keep the README aligned with the OWASP repository's GitHub topics. When a topic is added, removed, or renamed, reflect the change in the relevant purpose, scope, audience, or maintenance guidance rather than adding a standalone keyword list.
 
 ## License
 
