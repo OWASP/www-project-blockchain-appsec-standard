@@ -9,7 +9,7 @@ tags: ["social engineering"]
 ---
 
 
-## Briefing Introduction - Overview of the Blockchain Social Engineering Lanscape
+## Briefing Introduction - Overview of the Blockchain Social Engineering Landscape
 
 ---
 
